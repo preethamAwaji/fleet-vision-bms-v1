@@ -1,0 +1,88 @@
+Fleet Vision BMS - Demo Video
+
+===========================================
+LIVE DEMO DASHBOARD
+===========================================
+URL: https://fleet-vision-bms.netlify.app
+
+Access the live dashboard to see:
+- Real-time fleet monitoring
+- Battery performance analytics
+- GPS tracking visualization
+- Anomaly detection alerts
+- Trip history and statistics
+
+===========================================
+DEMO VIDEO (YouTube/Drive)
+===========================================
+[INSERT YOUR VIDEO LINK HERE]
+
+Video Duration: Maximum 5 minutes
+Video Contents:
+1. Hardware prototype overview (VSDSquadron ULTRA + sensors)
+2. Real-time sensor readings on OLED display
+3. Serial monitor output showing data transmission
+4. Web dashboard with live data updates
+5. Fault injection and detection demonstration
+6. GPS tracking visualization
+7. ML anomaly detection in action
+8. Multi-vehicle fleet view
+9. Charging slot management
+10. Trip history and analytics
+
+===========================================
+HARDWARE PHOTOS
+===========================================
+Located in: 7_Demo/Hardware_Photos/
+- prototype_1.jpg - Breadboard prototype with all components
+- prototype_2.jpg - Assembled BMS unit
+
+===========================================
+DASHBOARD SCREENSHOTS
+===========================================
+Located in: 7_Demo/Dashboard_Screenshots/
+- dashboard_main.png - Main fleet overview
+- vehicle_detail.png - Individual vehicle monitoring
+- telemetry.png - Historical data visualization
+- analytics.png - Fleet-wide analytics
+
+===========================================
+INSTRUCTIONS TO ADD YOUR VIDEO
+===========================================
+1. Record a 5-minute demo video showing:
+   - Hardware setup and connections
+   - System boot and initialization
+   - Real-time data on OLED display
+   - Serial monitor output
+   - Dashboard functionality
+   - Fault detection demo
+   - GPS tracking
+   - Multi-vehicle monitoring
+
+2. Upload to YouTube (unlisted or public) or Google Drive
+
+3. Replace [INSERT YOUR VIDEO LINK HERE] with your actual link
+
+4. Example formats:
+   YouTube: https://youtu.be/YOUR_VIDEO_ID
+   Google Drive: https://drive.google.com/file/d/YOUR_FILE_ID/view
+
+===========================================
+VIDEO RECORDING TIPS
+===========================================
+- Use screen recording software (OBS Studio, Camtasia)
+- Show hardware close-ups
+- Demonstrate fault injection (overvoltage, overtemperature)
+- Show GPS fix acquisition
+- Display dashboard with live updates
+- Explain key features while recording
+- Keep it under 5 minutes
+- Use good lighting for hardware shots
+- Clear audio narration
+
+===========================================
+CONTACT
+===========================================
+For questions about the demo:
+GitHub: https://github.com/preethamAwaji/fleet-vision-bms
+Live Demo: https://fleet-vision-bms.netlify.app
