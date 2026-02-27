@@ -1,0 +1,5 @@
+Please place your FleetVision logo image here as "fleet-vision-logo.png"
+The logo should show:
+- FV in dark blue with green oval and lightning bolt
+- "FleetVision" text (Fleet in dark blue, Vision in green)
+- Tagline "Intelligence in Every Fleet"

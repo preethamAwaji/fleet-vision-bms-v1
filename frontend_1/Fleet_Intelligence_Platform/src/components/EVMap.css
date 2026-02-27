@@ -1,0 +1,86 @@
+/* Leaflet map styles */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 1;
+  position: relative;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  border-radius: 12px;
+  padding: 0;
+  font-family: inherit;
+}
+
+.leaflet-popup-tip {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-vehicle-popup .leaflet-popup-content {
+  min-width: 350px;
+  max-width: 400px;
+}
+
+.custom-marker {
+  transition: all 0.2s ease;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.custom-marker:hover {
+  transform: scale(1.3);
+}
+
+/* Ensure map container has proper height */
+.ev-map-container {
+  height: 100%;
+  width: 100%;
+  min-height: 320px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Fix for map clickability */
+.leaflet-marker-icon {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  z-index: 1000 !important;
+}
+
+.leaflet-div-icon {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  z-index: 1000 !important;
+}
+
+/* Ensure map pane allows clicks */
+.leaflet-map-pane {
+  pointer-events: auto;
+}
+
+.leaflet-overlay-pane {
+  pointer-events: auto;
+}
+
+/* Popup animations */
+.leaflet-popup {
+  animation: popupFadeIn 0.2s ease-out;
+}
+
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

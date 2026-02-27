@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Create a simple favicon.ico by converting SVG to ICO
+        const canvas = document.createElement('canvas');
+        canvas.width = 32;
+        canvas.height = 32;
+        const ctx = canvas.getContext('2d');
+        
+        // Draw a simple bolt icon
+        ctx.fillStyle = '#1e293b';
+        ctx.fillRect(0, 0, 32, 32);
+        
+        ctx.fillStyle = '#22c55e';
+        ctx.beginPath();
+        ctx.moveTo(20, 2);
+        ctx.lineTo(8, 18);
+        ctx.lineTo(14, 18);
+        ctx.lineTo(12, 30);
+        ctx.lineTo(24, 14);
+        ctx.lineTo(18, 14);
+        ctx.lineTo(20, 2);
+        ctx.fill();
+        
+        // This is just a placeholder - you would normally convert this to ICO format
+        console.log('Custom favicon created');
+    </script>
+</head>
+<body>
+    <!-- This is just for generating the favicon concept -->
+</body>
+</html>
