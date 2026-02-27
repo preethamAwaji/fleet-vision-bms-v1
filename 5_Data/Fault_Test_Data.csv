@@ -1,0 +1,11 @@
+timestamp,fault_code,fault_reason,v1,v2,v3,t1,t2,t3,current,action_taken
+2026-02-27 11:00:00,F01,Overvoltage,4.25,4.20,4.18,30.0,30.0,30.0,0.0,Relay cutoff
+2026-02-27 11:05:00,F03,Overtemperature,3.80,3.80,3.80,42.0,41.5,40.8,-1.0,Relay cutoff
+2026-02-27 11:10:00,F04,Cell Imbalance,3.80,3.80,3.45,30.0,30.0,30.0,0.5,Balancing recommended
+2026-02-27 11:15:00,F05,Overcurrent Charge,3.80,3.80,3.80,30.0,30.0,30.0,-4.2,Charging stopped
+2026-02-27 11:20:00,F02,Undervoltage,2.75,2.80,2.85,30.0,30.0,30.0,0.0,Low battery alert
+2026-02-27 11:25:00,F06,Overcurrent Discharge,3.80,3.80,3.80,30.0,30.0,30.0,4.3,Load disconnected
+2026-02-27 11:30:00,F03,Overtemperature,3.80,3.80,3.80,43.5,42.0,41.0,-1.5,Relay cutoff
+2026-02-27 11:35:00,F04,Cell Imbalance,3.90,3.85,3.50,30.0,30.0,30.0,0.3,Balancing recommended
+2026-02-27 11:40:00,F01,Overvoltage,4.30,4.25,4.22,30.0,30.0,30.0,0.0,Relay cutoff
+2026-02-27 11:45:00,F05,Overcurrent Charge,3.80,3.80,3.80,30.0,30.0,30.0,-4.5,Charging stopped
