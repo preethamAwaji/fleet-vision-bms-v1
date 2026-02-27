@@ -1,0 +1,44 @@
+ARCHITECTURE DIAGRAM - READY TO ADD
+====================================
+
+✅ ARCHITECTURE DIAGRAM PROVIDED
+
+The IoT-Based Fleet Battery Management System architecture diagram has been provided
+and should be saved in this folder as:
+
+architecture_diagram.png
+
+The diagram shows:
+✓ Three-layer IoT architecture
+✓ Perception Layer: N-Battery Fleet [1...N] + Fleet Charging Dock
+✓ Network & Data Layer: VSD Squadron Pro-Based BMS + Dock Controller + Cloud Database
+✓ Application Layer: Fleet Management Dashboard
+
+Components Shown:
+- N-Battery Fleet with battery status indicators
+- Fleet Charging Dock with multiple charging slots
+- VSD Squadron Pro-Based BMS monitoring:
+  • Voltage
+  • Current
+  • Temperature
+  • Cell Balance Condition
+- Dock Controller managing:
+  • Charger Active/Inactive
+  • Status of Chargers
+- Cloud Database (central data hub)
+- Internet/Cellular connectivity (bidirectional)
+- Fleet Management Dashboard with 4 modules:
+  • State of Charge (SoC)
+  • State of Health (SoH)
+  • Battery Maintenance Logs
+  • Charging Slot Availability
+
+TO ADD THE IMAGE:
+1. Save the provided architecture diagram image
+2. Rename it to: architecture_diagram.png
+3. Copy it to this docs/ folder
+4. The image will automatically appear in:
+   - README.md (line 148: System Architecture section)
+   - docs/ARCHITECTURE.md (line 9: Architecture Overview)
+
+Once added, the documentation will be complete with visual architecture representation!

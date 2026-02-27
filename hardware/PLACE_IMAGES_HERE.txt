@@ -1,0 +1,66 @@
+INSTRUCTIONS FOR ADDING HARDWARE IMAGES
+========================================
+
+Please save your hardware images in this folder with the following names:
+
+1. prototype_1.jpg
+   - Your breadboard prototype image (first image you provided)
+   - Shows complete setup with VSDSquadron, GPS, battery, breadboard
+   - Recommended size: 1920x1080 or higher
+   - Format: JPG or PNG
+
+2. prototype_2.jpg
+   - Your assembled BMS unit (second image you provided)
+   - Shows compact assembly with organized wiring
+   - Recommended size: 1920x1080 or higher
+   - Format: JPG or PNG
+
+3. schematic.png
+   - Your circuit schematic image (from EasyEDA)
+   - Recommended size: 1920x1080 or higher
+   - Format: PNG or JPG
+
+4. pcb_layout.png
+   - Your PCB layout image (from EasyEDA)
+   - Recommended size: 1920x1080 or higher
+   - Format: PNG or JPG
+
+5. BOM.csv (optional)
+   - Bill of Materials in CSV format
+   - Columns: Designator, Component, Value, Package, Quantity, Supplier, Part Number, Cost
+
+6. gerber_files/ (optional)
+   - Create a subfolder for Gerber manufacturing files
+   - Include: .GTL, .GBL, .GTO, .GBO, .GTS, .GBS, .TXT (drill file)
+
+After adding the images:
+- They will automatically appear in the README.md
+- The hardware/README.md will display them
+- Users can view the complete hardware design
+
+Current Status:
+- [ ] prototype_1.jpg - NOT ADDED YET (breadboard setup)
+- [ ] prototype_2.jpg - NOT ADDED YET (assembled unit)
+- [ ] schematic.png - NOT ADDED YET (circuit diagram)
+- [ ] pcb_layout.png - NOT ADDED YET (PCB layout)
+- [ ] BOM.csv - NOT ADDED YET
+- [ ] gerber_files/ - NOT ADDED YET
+
+To add images:
+1. Save the images from your camera/design tool
+2. Rename them to match the names above
+3. Copy them to this hardware/ folder
+4. Commit and push to GitHub
+
+The images will then be visible in the documentation!
+
+Your prototype images show:
+✓ VSDSquadron Ultra RISC-V board
+✓ NEO-6M GPS module with antenna
+✓ 3S Li-ion battery pack (18650 cells)
+✓ Breadboard prototyping
+✓ Status LEDs
+✓ Cooling fan
+✓ Buzzer
+✓ Professional wire management
+✓ Working prototype with real-time data
